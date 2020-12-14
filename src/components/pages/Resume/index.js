@@ -7,14 +7,14 @@ const Resume = () => {
   return (
     <>
       {/* About me */}
-      <Grid container className='section'>
-        <Grid item className='section_title'>
+      <Grid container className='section pb_45'>
+        <Grid item className='section_title mb_30'>
           <span></span>
-          <h6>About Me</h6>
+          <Typography variant='h6' className='section_title_text'>About Me</Typography>
         </Grid>
 
-        <Grid item className='section_title_text'>
-          <Typography>{resumeData.about}</Typography>
+        <Grid item xs={12}>
+          <Typography variant='body2' className='aboutme_text'>{resumeData.about}</Typography>
         </Grid>
       </Grid>
 
