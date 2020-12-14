@@ -1,6 +1,27 @@
+/* About me */
 .aboutme_text {
   color: #4c4c4c;
   font-size: smaller;
-  line-height: 24px !important;
+  line-height: 22px !important;
   white-space: pre-line;
+}
+
+/* Resume */
+.resume_timeline .timeline_content {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.resume_timeline .timeline_content .timeline_title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.resume_timeline .timeline_content .timeline_date {
+  color: darkslategrey;
+}
+
+.resume_timeline .timeline_content .timeline_description {
+  color: gray;
+  font-size: small;
+  margin-top: 6px;
 }
