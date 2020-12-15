@@ -13,6 +13,7 @@ export default {
   email: 'jeonghak4142@gmail.com',
   birthday: '15th November 1993',
   phone: '0434 256 746',
+  address: '63 Shoreline Dr, Rhodes NSW 2138',
 
   socials: {
     Facebook: {

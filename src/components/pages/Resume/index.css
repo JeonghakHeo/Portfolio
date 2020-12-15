@@ -27,57 +27,84 @@
 }
 
 /* Service */
- .service {
-   height: 100%;
-   text-align: center;
- }
+.service {
+  height: 100%;
+  text-align: center;
+}
 
- .service .service_title {
+.service .service_title {
   font-size: 16px;
   font-weight: 500;
   line-height: 35px;
   text-align: center;
- }
+}
 
- .service .service_description {
+.service .service_description {
   color: #989898;
   border-color: var(--main-color);
   margin-right: 5px;
   text-align: center;
- }
+}
 
- .service_icon > .MuiSvgIcon-root {
-   font-size: 46px;
-   font-weight: 300;
-   margin-left: 0;
-   color: darkslategrey;
- }
+.service_icon > .MuiSvgIcon-root {
+  font-size: 46px;
+  font-weight: 300;
+  margin-left: 0;
+  color: darkslategrey;
+}
 
- /* Skills */
- .skill {
+/* Skills */
+.skill {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
   min-height: 186px;
   height: 100%; 
- }
+}
 
- .skill .skill_title {
+.skill .skill_title {
   font-size: 14px;
   font-weight: 500;
   line-height: 35px;
- }
+}
 
- .skill .skill_description {
+.skill .skill_description {
   display: flex;
   align-items: center;
   color: #989898;
   font-weight: 400;
   line-height: 18px;
- }
+}
 
- .skill .skill_description .timeline_dot {
+.skill .skill_description .timeline_dot {
   border-color: var(--main-color);
   padding: 2px;
   margin-right: 5px;
+}
+
+ /* Contact */
+
+.contactInfo_container {
+   margin-top: 10px !important;
  }
+
+.contactInfo_item {
+  font-size: 14px;
+  color: #787878;
+  line-height: 34px;
+}
+
+.contactInfo_item > span {
+  color: black;
+  font-weight: 500;
+}
+
+.contactInfo_socialsContainer {
+  margin-top: 25px;
+}
+
+.contactInfo_social > a > .MuiSvgIcon-root {
+  font-size: 20px;
+  margin-right: 10px;
+  color: black;
+}
