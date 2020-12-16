@@ -22,9 +22,14 @@
   margin-top: 30px;
 }
 
+.mb_20 {
+  margin-bottom: 20px !important;
+}
+
 .mb_30 {
   margin-bottom: 30px !important;
 }
+
 .p_30 {
   padding: 30px;
 }

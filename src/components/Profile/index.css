@@ -1,5 +1,7 @@
 .profile {
   background-color: white;
+  position: sticky;
+  top: 10px;
 }
 
 .profile_name{

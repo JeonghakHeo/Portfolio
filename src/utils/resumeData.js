@@ -6,6 +6,8 @@ import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
 import FindInPageIcon from '@material-ui/icons/FindInPage';
 import BrushIcon from '@material-ui/icons/Brush';
 import TimerIcon from '@material-ui/icons/Timer';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import Language from '@material-ui/icons/Language';
 
 export default {
   name: 'Jeonghak Heo',
@@ -125,6 +127,60 @@ export default {
     {
       title: 'SOURCE CONTROL',
       description: ['Git', 'Github']
+    }
+  ],
+
+  projects: [
+    {
+      tag: 'React',
+      image: 'https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png',
+      title: 'React Project 1',
+      caption: 'A short description',
+      description: 'This is my project description. Please fill it in.',
+      links: [
+        { link: 'https://www.google.com', icon: <YouTubeIcon /> },
+        { link: 'https://www.google.com', icon: <GitHubIcon /> },
+        { link: 'https://www.google.com', icon: <Language /> }
+      ]
+    },
+
+    {
+      tag: 'React',
+      image: 'https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png',
+      title: 'React Project 2',
+      caption: 'A short description',
+      description: 'This is my project description. Please fill it in.',
+      links: [
+        { link: 'https://www.google.com', icon: <YouTubeIcon /> },
+        { link: 'https://www.google.com', icon: <GitHubIcon /> },
+        { link: 'https://www.google.com', icon: <Language /> }
+      ]
+    },
+
+    {
+      tag: 'JavaScript',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxoTPBaOktJshTXx2cnzx-GxDZc3dg3To5fA&usqp=CAU',
+      title: 'JavaScript Project 1',
+      caption: 'A short description',
+      description: 'This is my project description. Please fill it in.',
+      links: [
+        { link: 'https://www.google.com', icon: <YouTubeIcon /> },
+        { link: 'https://www.google.com', icon: <GitHubIcon /> },
+        { link: 'https://www.google.com', icon: <Language /> }
+      ]
+    },
+
+    {
+      tag: 'NodeJS',
+      image: 'https://miro.medium.com/max/3200/1*xdo0UBpyszvD7-7EH4TkIA.png',
+      title: 'NodeJS Project 1',
+      caption: 'A short description',
+      description: 'This is my project description. Please fill it in.',
+      links: [
+        { link: 'https://www.google.com', icon: <YouTubeIcon /> },
+        { link: 'https://www.google.com', icon: <GitHubIcon /> },
+        { link: 'https://www.google.com', icon: <Language /> }
+      ]
     }
   ]
 }
